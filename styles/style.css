@@ -1,0 +1,46 @@
+/* shared styles  */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 35px;
+}
+
+/* nav related styles  */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
